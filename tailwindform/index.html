@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/tailwind.css">
+    <title>Tailwind Form</title>
+    <style>
+        .form {
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        .image {
+            background-image: url('./img/2.jpg');
+            height: 500px;
+            width: 45%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form w-full flex pt-40  my-0 mx-auto">
+        <div class="image bg-cover bg-no-repeat bg-center object-cover">
+
+        </div>
+        <div class="theform pl-24">
+            <h1 class="text-center text-5xl text-purple-500">autoapp<span class="font-thin">.do</span></h1>
+            <form action="" method="get">
+                <h2 class="text-2xl ">Sign Up</h2>
+                <input class="border-b-2 rounded-bl rounded-br py-3 px-16 focus:outline-none" type="text"
+                    placeholder="Enter First name">
+                <br>
+                <input class="border-b-2 rounded-bl rounded-br py-3 px-16 focus:outline-none" type="text"
+                    placeholder="Enter Last name"><br>
+                <input class="border-b-2 rounded-bl rounded-br py-3 px-16 focus:outline-none" type="text"
+                    placeholder="Enter Phone"><br>
+                <input class="border-b-2 rounded-bl rounded-br  py-3 px-16 focus:outline-none" type="text"
+                    placeholder="Enter Phone"><br>
+                <input class="border-b-2 rounded-bl rounded-br py-3 px-16 focus:outline-none" type="email"
+                    placeholder="Enter Email"><br>
+                <input class="border-b-2 rounded-bl rounded-br  py-3 px-16 focus:outline-none" type="password"
+                    placeholder="Enter Password"><br>
+                <input class="mt-6 mb-4" type="checkbox" name="" id="">
+                <span>I accept the terms and conditions</span> <br>
+                <button class="bg-yellow-400 ml-8 py-3 px-4 text-center rounded shadow-lg hover:bg-yellow-500">SIGN UP
+                    NOW!</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
